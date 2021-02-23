@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                    Ismail - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 2/22/2021
+Analyst: Rockwell Automation                                         Model revision date: 2/22/2021
+
+Replication ended at time      : 14.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Car.VATime                                  .08527     (Insuf)    .02125     .15307        163    
+Car.NVATime                                 .00000     (Insuf)    .00000     .00000        163    
+Car.WaitTime                                4.1477     (Insuf)    .00000     8.1816        163    
+Car.TranTime                                .00000     (Insuf)    .00000     .00000        163    
+Car.OtherTime                               .00000     (Insuf)    .00000     .00000        163    
+Car.TotalTime                               4.2329     (Insuf)    .07433     8.2595        163    
+Process 1.Queue.WaitingTime                 4.1726     (Insuf)    .00000     8.2374        164    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Car.WIP                                     128.34     (Corr)     .00000     270.00     270.00    
+machine.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+machine.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+machine.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               127.34     (Corr)     .00000     269.00     269.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Car.NumberIn                                433.00    
+Car.NumberOut                               163.00    
+machine.NumberSeized                        164.00    
+machine.ScheduledUtilization                1.0000    
+System.NumberOut                            163.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

@@ -1,0 +1,52 @@
+
+                                      ARENA Simulation Results
+                                    Ismail - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 2/22/2021
+Analyst: Rockwell Automation                                         Model revision date: 2/22/2021
+
+Replication ended at time      : 30.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .10814     (Insuf)    .08347     .13327        243    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        243    
+Customer.WaitTime                           .28774     (Insuf)    .00000     .87268        243    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        243    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        243    
+Customer.TotalTime                          .39588     (Insuf)    .08737     1.0004        243    
+Queue.Queue.WaitingTime                     .12912     (Insuf)    .00000     .48965        244    
+Booth.Queue.WaitingTime                     .15836     (Insuf)    .00000     .58207        243    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                3.2114     (Corr)     .00000     11.000     2.0000    
+Waiting.NumberBusy                          .87715     (Insuf)    .00000     1.0000     1.0000    
+Waiting.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Waiting.Utilization                         .87715     (Insuf)    .00000     1.0000     1.0000    
+Queue.Queue.NumberInQueue                   1.0515     (Corr)     .00000     7.0000     1.0000    
+Booth.Queue.NumberInQueue                   1.2827     (Insuf)    .00000     7.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           245.00    
+Customer.NumberOut                          243.00    
+Waiting.NumberSeized                        487.00    
+Waiting.ScheduledUtilization                .87715    
+System.NumberOut                            243.00    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

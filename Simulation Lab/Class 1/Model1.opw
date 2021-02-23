@@ -1,0 +1,7 @@
+[RESOURCES]
+machine
+[VARIABLES]
+Process 1.NumberOut
+Car Arrival.NumberOut
+Dispose 1.NumberOut
+Process 1.NumberIn
