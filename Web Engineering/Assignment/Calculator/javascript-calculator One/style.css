@@ -7,7 +7,7 @@
 html {
   font-family: "Roboto", "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
-  background-color: #3498DB;
+  background-color: #a3a3a396;
   height: 100%;
 }
 
@@ -139,5 +139,5 @@ html {
 }
 
 .credit a, .error {
-  color: #C2185B;
+  color: #ff0000;
 }

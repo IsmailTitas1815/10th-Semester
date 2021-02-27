@@ -1,20 +1,19 @@
-// Clears the screen on click of C button.
-function clearScreen() {
-  document.getElementById("result").value = "";
-}
-// Displays entered value on screen.
-function liveScreen(value) {
-  document.getElementById("result").value += value;
-}
-// Swaps the style sheet in order to  achieve dark mode.
-function switchTheme() {
-  let darkMode = document.getElementById("dark-mode");
-  let theme = document.getElementById("theme");
-  if (theme.getAttribute("href") == "light.css") {
-    theme.href = "dark.css";
-    darkMode.innerHTML = "Light Mode 🌞";
-  } else {
-    theme.href = "light.css";
-    darkMode.innerHTML = "Dark Mode 🌙";
+let selection = document.getElementById("selection");
+let display = document.querySelector('.result');
+let clear = document.querySelector('.clear');
+
+
+selection.addEventListener('click',clicked);
+function clicked(e){
+  let value = e.target.value;
+  if (display.value !=="" && value ==="="){
+    display.value = eval(display.value);
   }
-}
+  else{
+    display.value += value;
+  }
+};
+
+clear.addEventListener('click',()=>{
+      display.value = ''
+})
