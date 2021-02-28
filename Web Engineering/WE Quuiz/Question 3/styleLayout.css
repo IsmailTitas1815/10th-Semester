@@ -1,0 +1,37 @@
+body {
+  max-width: 960px;
+}
+header {
+  background-color: #5fb8b4;
+}
+nav a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+nav {
+  display: flex;
+}
+.last-two {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 800px;
+}
+#register {
+  padding-left: 450px;
+}
+#login {
+  /* padding-left: 400px; */
+  padding: left 200px;
+}
+.section {
+  display: flex;
+  padding-top: 20px;
+}
+.third {
+  width: 240px;
+  border: 1px solid black;
+  margin: 0 20px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #5fb8b4;
+}
